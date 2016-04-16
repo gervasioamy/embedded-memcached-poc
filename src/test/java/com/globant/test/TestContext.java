@@ -1,7 +1,6 @@
 package com.globant.test;
 
-import com.globant.test.dao.EmbeddedMemcachedController;
-import com.globant.test.dao.PoCRepository;
+import com.globant.test.cache.EmbeddedMemcachedController;
 import com.globant.test.dao.Repository;
 import org.mockito.Mockito;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
 
 /**
- * Created by gervasio.amy
+ *  @author gervasio.amy
  */
 @Configuration
 public class TestContext {
